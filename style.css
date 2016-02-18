@@ -1,0 +1,67 @@
+.gameboard {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  width:100%;
+}
+
+.wrapper {
+  width: 900px;
+  margin:0 auto;
+}
+
+.button {
+  background-color:white;
+  width: 160px;
+  margin:0 auto;
+}
+
+.row {
+  clear:both;
+  margin:0 auto;
+}
+
+.cell {
+  width:50px;
+  height:50px;
+  float: left;
+  border:1px solid black;
+  margin:0 auto;
+}
+
+.highlighted {
+  background-color: aqua;
+}
+
+/* Below here is not used */
+
+.floating-box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid #73AD21;
+}
+
+#cell1,#cell2,#cell3 {
+  width:100px;
+  height:100px;
+  float: left;
+  border:3px solid black;
+}
+
+#cell4,#cell5,#cell6 {
+  width:100px;
+  height:100px;
+  float: left;
+  border:3px solid black;
+}
+
+#cell7,#cell8,#cell9 {
+  width:100px;
+  height:100px;
+  float: left;
+  border:3px solid black;
+}
